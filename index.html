@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <img src="logo_size.jpg" id="logo">
+                <a href="#logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times "onclick='closemenu()'></i>
+                </ul>
+                <i class="fas fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I'm <span>Asbin</span><br>Rai from Nepal</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about me img.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque qui doloribus commodi inventore enim expedita libero, dolor eaque mollitia in numquam illum. Consequatur cum debitis eius dignissimos sed excepturi quam!
+                A quod molestiae, quia sequi quaerat voluptatum numquam pariatur magni adipisci odit, excepturi cumque doloribus. Veniam eligendi itaque veritatis temporibus mollitia sed omnis placeat, expedita vero ipsum? Laudantium, impedit vero?
+                Commodi neque ducimus molestias eaque, animi beatae impedit iure vel repellendus cumque quas amet ut. Voluptatibus harum, incidunt necessitatibus dolorem a porro? Deleniti optio nemo hic voluptatem veniam sapiente </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skillls</p>
+                    <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                
+                <div class="tab-content active-tab " id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Apps Development</span><br>Building Andriod/iOS apps</li>
+                        <li><span>Python Programmer</span><br>coding with python/other languages</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Experiences">
+                    <ul>
+                        <li><span>Two years</span><br>Web app Development</li>
+                        <li><span>Apps Development</span><br>Building Andriod/iOS apps</li>
+                        <li><span>Ps Programmer</span><br>coding with python/other languages</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                    <ul>
+                        <li><span>BCA</span><br>Web app Development</li>
+                        <li><span>Apps Development</span><br>Building Andriod/iOS apps</li>
+                        <li><span>Python Programmer</span><br>coding with python/other languages</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---sevives--------------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, qui nam magni illo aut perferendis asperiores. Facere distinctio, doloribus, porro saepe unde, enim reiciendis consequuntur similique iure vitae cupiditate quo.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, qui nam magni illo aut perferendis asperiores. Facere distinctio, doloribus, porro saepe unde, enim reiciendis consequuntur similique iure vitae cupiditate quo.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, qui nam magni illo aut perferendis asperiores. Facere distinctio, doloribus, porro saepe unde, enim reiciendis consequuntur similique iure vitae cupiditate quo.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------portfolio---------------- -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social media App</h3>
+                    <p>The social media connects you to Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sed minima? Expedita esse deserunt nihil magnam quia consequatur sequi, recusandae labore eum sunt quam repellat officia, ipsam assumenda porro in.the talented people around the world.Download it from play store.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the worl Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis odit officia reprehenderit, laudantium exercitationem sequi, omnis facilis in ut ratione aperiam repellendus, quidem quia ipsam veniam? Consectetur doloremque eum ex?  Download it from play store.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented pelor Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi qui similique repellendus facere quo, unde, fuga itaque dolore earum nulla ducimus, ipsa perferendis sit? Accusamus veritatis iusto nostrum quos dignissimos?ople around the world.Download it from play store.</p>
+                </div>
+            </div>
+        </div>
+        <a class="btn" href="#">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9807986977</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-meta"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+
+                </div>
+                <a href="dl.pdf" class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="messsage" placeholder="Your message" rows="10"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+    <div class="copyright">
+        <p>Copyright © asbin. Made with <i class="fas fa-heart"></i> by Asbin</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+let sidemenu=document.getElementById('sidemenu')
+    function openmenu(){
+        sidemenu.style.right='0';
+        console.log('fuck this')
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    
+    }</script>
+
+
+<script  src="script.js"></script>
+</body>
+</html>
